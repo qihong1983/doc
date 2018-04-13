@@ -1,0 +1,77 @@
+### 图类：
+* echarts（canvas）  http://echarts.baidu.com/examples.html
+* highcharts（canvas） https://www.highcharts.com/demo
+* G2（canvas） https://antv.alipay.com/g2/demo/index.html
+* D3（svg） https://github.com/d3/d3/wiki/Gallery
+
+选取标准：
+* 渲染效率：canvas渲染效率高于svg，一般选择canvas方案的
+* 接近需求样式
+* 上手速度
+* 熟悉程度
+
+### 表类：
+* datatable
+* bootstrap-table/bootstrap-table plugins
+
+选取标准：
+* 这两个差不多，bootstrap-table的plugin插件比较多，不过也得根据需求和UI选取
+
+### 拓扑图
+* jTop （Javascript Topology library)是一款完全基于HTML5 Canvas的关系、拓扑图形化界面开发工具包。 http://www.jtopo.com/index.html
+* echarts（canvas）http://echarts.baidu.com/examples.html
+* qunee (收费) http://qunee.com/
+
+### 基础框架/插件：
+* jquery/jqueryui/jquery plugins  新手上手快，门槛低，大项目有局限性
+* 传媒技术部内部框架(韦小全开发的) 需要重新学习
+
+### 功能型/插件：
+* xlsx/FileSaver(xlsx导出)
+* daterangepicker(日期时间选择插件)
+* html2canvas(html to image)
+* codemirror(代码样式)
+* sql-formatter(sql格式化)
+* ztree(树形)
+* Monent.js(日期处理库)需要充
+* ...
+
+### UI组件/数据配合：
+* bootstrap(响应式UI框架) 一般都会带
+* react
+    * ant design （https://preview.pro.ant.design）
+* vue（构建用户界面的渐进式框架）
+* Angular
+* redux flux的实现
+* scss CSS 预处理语言，为css服务，增加效率 https://www.sass.hk/
+* Less CSS 预处理语言 扩展了 CSS 语言，增加了变量、Mixin、函数等特性 http://lesscss.cn/
+
+选取标准：
+* react和vue都是基于组件化开发的view层，看熟悉程度，vue入手相对较容易。
+* scss和less 根据熟悉程序，可用可不用
+* Angular相对较重，一般小型项目不太用
+
+### 动画：
+* Animate.css(css3动画) 
+* ...
+
+### 打包工具：
+* webpack（模块加载器兼打包工具） 支持es6，有语法糖之类的甜头
+* npm/cnpm(包管理工具) https://www.npmjs.com/
+* gulpjs/gruntjs gruntjs配置多，功能比较灵活；gulpjs上手快
+
+### 开发模式：
+* AMD(Asynchronous Module Definition)（异步组件/模块定义）
+* CMD(Common Module Definition)（同步组件/模块定义）
+
+### 思想
+* Flux https://facebook.github.io/flux/
+* MVC(Model-View-Controller) 
+* MVP(Model-View-Presenter) Presenter仅传递
+* MVVM(Model-View-ViewModel) 双向绑定 view model同变
+
+### CDN
+* Content Delivery Network，即内容分发网络
+
+### 前端积累
+* https://g.hz.netease.com/dataplatform/optimus
